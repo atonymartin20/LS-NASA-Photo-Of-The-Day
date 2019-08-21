@@ -4,7 +4,8 @@ import "./index.css";
 const NavBar = () => {
     return (
         <div className='nav-bar'>
-            Navbar
+            <span>Add Logo Here</span>
+            <span>Navbar</span>
         </div>
     )
 }
