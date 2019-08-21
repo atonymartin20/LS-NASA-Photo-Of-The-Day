@@ -1,0 +1,9 @@
+.nav-bar {
+    width: 100%;
+    background-color: dodgerblue;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}

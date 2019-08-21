@@ -1,10 +1,10 @@
 .App {
   text-align: center;
-  background-color:red;
+  /* background-color:red; */
   max-width: 1200px;
   width: 100%;
-  padding: 0px;
-  margin: 0px;
+  margin: 0 auto;
+  font-size: 62.5%;
 }
 
 .App-logo {
@@ -37,7 +37,3 @@
   }
 }
 
-body, p {
-  margin: 0;
-  padding: 0;
-}
