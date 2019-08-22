@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <NavBar />
       <NavBar />
-      {/* Commit 3  */}
+      {/* Commit 4  */}
       <p>
         Read through the instructions in the README.md file to build your NASA
         app! Have fun 🚀!
