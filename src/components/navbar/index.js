@@ -6,6 +6,8 @@ const NavBar = () => {
         <div className='nav-bar'>
             <span>Add Logo Here</span>
             <span>Navbar</span>
+            commit
+
         </div>
     )
 }
