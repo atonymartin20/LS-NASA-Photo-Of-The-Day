@@ -5,11 +5,9 @@ import hamburger from '../../images/Hamburger_icon.png';
 const NavBar = () => {
     return (
         <div className='nav-bar'>
-            <span>Hamburger Button</span>
-            <img src={require('../../images/NASA-logo.png')} className="logo"/>
             <img src={hamburger} alt="Hamburger Icon" className="hamburger"/>
-            <span>Test</span>
-            <span>Navbar</span>
+            <img src={require('../../images/NASA-logo.png')} className="logo"/>
+            <span>Something Here</span>
         </div>
     )
 }
