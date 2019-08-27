@@ -11,7 +11,12 @@
     margin-bottom: 20px;
 }
 
-.nav-bar img {
+.logo {
     width: 100%;
     max-width: 100px;
+}
+
+.hamburger {
+    width: 100%;
+    max-width: 50px;
 }
