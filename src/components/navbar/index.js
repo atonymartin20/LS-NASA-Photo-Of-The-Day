@@ -9,7 +9,7 @@ const NavBar = () => {
             <img src={hamburger} alt="Hamburger Icon" className="hamburger"/>
             <img src={logo} alt="NASA logo" className="logo"/>
             <span>Something Here</span>
-            {/* Commit 2 */}
+            {/* Commit 3 */}
         </div>
     )
 }
