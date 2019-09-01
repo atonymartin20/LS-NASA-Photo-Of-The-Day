@@ -11,6 +11,14 @@
     margin-bottom: 20px;
 }
 
+.nav-bar img{
+    
+    border: 2px solid yellow;
+}
+
+.nav-bar span {
+    border: 2px solid yellow;
+}
 .logo {
     width: 100%;
     max-width: 100px;
