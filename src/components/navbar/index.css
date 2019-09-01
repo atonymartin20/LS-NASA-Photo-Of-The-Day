@@ -3,7 +3,7 @@
     background-color: dodgerblue;
     height: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     font-size: 1.5rem;
     padding: 0px 5%;
@@ -11,20 +11,14 @@
     margin-bottom: 20px;
 }
 
-.nav-bar img{
-    
-    border: 2px solid yellow;
-}
-
-.nav-bar span {
-    border: 2px solid yellow;
-}
 .logo {
     width: 100%;
     max-width: 100px;
+    margin-right: auto;
 }
 
-.hamburger {
+.nav-bar .hamburger {
     width: 100%;
     max-width: 50px;
+    margin-right: auto;
 }

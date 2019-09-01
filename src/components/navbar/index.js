@@ -8,7 +8,6 @@ const NavBar = () => {
         <div className='nav-bar'>
             <img src={hamburger} alt="Hamburger Icon" className="hamburger"/>
             <img src={logo} alt="NASA logo" className="logo"/>
-            <span>Something Here</span>
         </div>
     )
 }
