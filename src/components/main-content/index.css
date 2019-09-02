@@ -15,4 +15,5 @@ h1 {
     background-image: url('../../images/main-page-background.png');
     background-size: cover;
     background-repeat: no-repeat;
+    margin-top: 50px;
 }
