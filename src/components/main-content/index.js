@@ -1,20 +1,21 @@
 import React, { useState, useEffect } from 'react';
 import "./index.css";
+import axios from 'axios';
 
 const Main = () => {
 
     const[photos, setPhotos] = useState([]);
 
     const fetchPhoto = () => {
-        fetch(`https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY`)
-            .then(res => res.json())
+        axios.get(`https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY`)
             .then(photos => {
-                console.log(photos);
+                console.log(photos.data);
+                console.log(photos.data.title);
                 if (photos.status === "error") {
                     return;
                 }
-                setPhotos(photos);
-                ...
+                setPhotos(photos.data);
+                
             })
             .catch(err => console.log("noooo"));
         };
@@ -25,13 +26,10 @@ const Main = () => {
 
     return (
         <div className='main'>
-            <p>
-                Read through the instructions in the README.md file to build your NASA
-                app! Have fun <span role="img" aria-label="rocket">🚀</span>!
-            </p>
-            {photos.map(photo => (
-                <img width="200" src={photo} key={photo} alt={photo} />
-            ))}
+            <h1>
+                NASA Photo of the Day <span role="img" aria-label="rocket">🚀</span>
+            </h1>
+            <img src={photos.hdurl} key={photos.date} alt={photos.title} className="POTD" />
         </div>
     )
 }
