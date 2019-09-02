@@ -1,0 +1,10 @@
+.POTD {
+    width: 95%;
+    max-width: 1200px;
+}
+
+h1 {
+    font-size: 5.0rem;
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+}

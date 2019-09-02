@@ -27,7 +27,7 @@ const Main = () => {
     return (
         <div className='main'>
             <h1>
-                NASA Photo of the Day <span role="img" aria-label="rocket">🚀</span>
+                NASA Photo of the Day
             </h1>
             <img src={photos.hdurl} key={photos.date} alt={photos.title} className="POTD" />
         </div>
