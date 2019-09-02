@@ -14,6 +14,7 @@ const Main = () => {
                     return;
                 }
                 setPhotos(photos);
+                ...
             })
             .catch(err => console.log("noooo"));
         };
