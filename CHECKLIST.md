@@ -1,6 +1,5 @@
 To Do List:
 - [ ] Make hamburger button work
-- [ ] Add footer content
 
 Completed:
 - [x] Create Navbar component
@@ -9,3 +8,4 @@ Completed:
 - [x] Create Footer Container
 - [x] Add Main content
 - [x] See what Nasa is sending back
+- [x] Add footer content
