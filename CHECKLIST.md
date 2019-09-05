@@ -1,6 +1,6 @@
 To Do List:
 - [ ] Make hamburger button work
-
+- [ ] Add styled-components
 Completed:
 - [x] Create Navbar component
 - [X] Style Navbar
