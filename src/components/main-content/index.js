@@ -33,7 +33,7 @@ const Main = () => {
     //         <img src={photos.url} key={photos.date} alt={photos.title} className="POTD" />
     //     }
     // }
-    // Commit 1
+    // Commit 2
 
     return (
         <div className='main'>
