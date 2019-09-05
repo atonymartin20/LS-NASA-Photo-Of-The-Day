@@ -1,8 +1,7 @@
 import React from 'react';
-import "./index.css";
 import styled from 'styled-components'
 
-const Footer = styled.footer`
+const FooterCont = styled.footer`
     width: 100%;
     background-color: #C2c7c0;
     color: #177245;
@@ -16,7 +15,7 @@ const Footer = styled.footer`
 `;
 const Footer = () => {
     return (
-        <Footer>
+        <FooterCont>
             <p>
                 Contact us at:
                 <br />NASA Headquarters
@@ -25,7 +24,7 @@ const Footer = () => {
                 <br />(202) 358-0001 (Office)
                 <br />(202) 358-4338 (Fax)
             </p>
-        </Footer>
+        </FooterCont>
     )
 }
 
