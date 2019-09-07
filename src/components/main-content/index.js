@@ -10,6 +10,19 @@ const MainContentDiv = styled.div`
     margin-top: 50px;
 `;
 
+const MainContentH1 = styled.h1`
+    font-size: 5.0rem;
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+    text-shadow: -2px 0 #ff4500, 0 2px #ff4500, 2px 0 #ff4500, 0 -2px #ff4500;
+`;
+
+const MainContentPOTD = styled.img`
+width: 95%;
+max-width: 1200px;
+margin-bottom: 10px;
+`;
+
 const Main = () => {
 
     const[photos, setPhotos] = useState([]);
