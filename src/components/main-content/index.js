@@ -1,7 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import styled from 'styled-components'
+import styled from 'styled-components';
+import background from '../../images/main-page-background.png';
 
+const MainContentDiv = styled.div`
+    background-image: url(${background});
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+`;
 
 const Main = () => {
 
@@ -24,15 +31,13 @@ const Main = () => {
         fetchPhoto();
     }, []);
 
-    // Commit 
-
     return (
-        <div className='main'>
+        <MainContentDiv>
             <h1>
                 NASA Photo of the Day
             </h1>
             <img src={photos.url} key={photos.date} alt={photos.title} className="POTD" />
-        </div>
+        </MainContentDiv>
     )
 }
 
