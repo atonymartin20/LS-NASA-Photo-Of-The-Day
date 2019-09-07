@@ -46,10 +46,10 @@ const Main = () => {
 
     return (
         <MainContentDiv>
-            <h1>
+            <MainContentH1>
                 NASA Photo of the Day
-            </h1>
-            <img src={photos.url} key={photos.date} alt={photos.title} className="POTD" />
+            </MainContentH1>
+            <MainContentPOTD src={photos.url} key={photos.date} alt={photos.title} />
         </MainContentDiv>
     )
 }
