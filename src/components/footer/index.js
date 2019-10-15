@@ -23,7 +23,7 @@ const Footer = () => {
                 <br />Washington, DC 20546
                 <br />(202) 358-0001 (Office)
                 <br />(202) 358-4338 (Fax)
-                {/* Commit 2 */}
+                {/* Commit 3 */}
             </p>
         </FooterCont>
     )
